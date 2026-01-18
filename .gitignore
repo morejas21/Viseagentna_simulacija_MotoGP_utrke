@@ -19,28 +19,24 @@ ENV/
 .idea/
 *.swp
 *.swo
-*~
 
-# Results & Logs
-results/
-*.csv
-*.jpg
-*.png
-*.log
+# Results
+results/*
+!results/.gitkeep
 
-# SPADE
-.spade/
-spade.db
+# SPADE Database
+server.db
+*.db
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Backups
+# Logs
+*.log
+
+# Temporary files
 *_FIXED.py
 *.bak
 *.backup
-
-# Testiranje
-test_results/
 temp/
