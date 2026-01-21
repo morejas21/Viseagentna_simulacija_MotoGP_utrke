@@ -10,7 +10,7 @@ Višeagentna simulacija MotoGP utrke koristeći SPADE framework.
 - 🔄 Real-time praćenje pozicija baziran na ukupnom vremenu
 - 📡 XMPP komunikacija između agenata
 
-## 🚀 Pokretanje
+## 🚀 Instalacija i pokretanje
 
 ### Instalacija
 
@@ -18,3 +18,8 @@ Višeagentna simulacija MotoGP utrke koristeći SPADE framework.
 
 # Python dependencies
 pip install -r requirements.txt
+
+### Pokretanje
+
+```bash
+python main.py
