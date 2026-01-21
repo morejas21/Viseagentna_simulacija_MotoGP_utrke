@@ -18,8 +18,9 @@ Višeagentna simulacija MotoGP utrke koristeći SPADE framework.
 
 # Python dependencies
 pip install -r requirements.txt
-
+```
 ### Pokretanje
 
 ```bash
+
 python main.py
